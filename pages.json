@@ -8,12 +8,50 @@
 		},
 		{
 			"path":"pages/mine/index"
+		},
+		{
+			"path":"pages/news/index"
+		},
+		{
+			"path":"pages/chat/index"
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#FFF"
+	},
+	//底部导航栏设置
+	"tabBar":{
+		"color":"#cdcdcd",
+		"selectedColor":"#f4ea2a",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"iconPath":"static/icon/shouye.png",
+				"selectedIconPath":"static/icon/shouyed.png",
+				"text":"首页"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"iconPath":"static/icon/paper.png",
+				"selectedIconPath":"static/icon/papered.png",
+				"text":"新闻"
+			},
+			{
+				"pagePath": "pages/chat/index",
+				"iconPath":"static/icon/xiaoxi.png",
+				"selectedIconPath":"static/icon/xiaoxied.png",
+				"text":"聊天"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath":"static/icon/wode.png",
+				"selectedIconPath":"static/icon/woded.png",
+				"text":"我的"
+			}
+		]
 	}
 }
